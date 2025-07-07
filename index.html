@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>drivenEats</title>
+		<link rel="stylesheet" href="css/resset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<div class="topo">
+				<h1>DrivenEats</h1>
+				<h4>Sua comida em 6 minutos</h4>
+			</div>
+		</header>
+
+		<h3 class="titulo-pedido-pratos">Primeiro, seu prato</h3>
+		<section class="pedidos-pratos">
+			<div class="card-item prato" onclick="selecionarPedido(this)">
+				<img src="img/prato.jpg" alt="Frango Yun Yang" />
+				<h3>Frango Yun Yang</h3>
+				<p>Um pouco de batata, um pouco de salada</p>
+				<p class="valor-pedido">R$ 14,90</p>
+			</div>
+			<div class="card-item prato" onclick="selecionarPedido(this)">
+				<img src="img/prato.jpg" alt="Frango Yun Yang" />
+				<h3>Frango Yun Yang</h3>
+				<p>Um pouco de batata, um pouco de salada</p>
+				<p class="valor-pedido">R$ 14,90</p>
+			</div>
+			<div class="card-item prato" onclick="selecionarPedido(this)">
+				<img src="img/prato.jpg" alt="Frango Yun Yang" />
+				<h3>Frango Yun Yang</h3>
+				<p>Um pouco de batata, um pouco de salada</p>
+				<p class="valor-pedido">R$ 14,90</p>
+			</div>
+			<div class="card-item prato" onclick="selecionarPedido(this)">
+				<img src="img/prato.jpg" alt="Frango Yun Yang" />
+				<h3>Frango Yun Yang</h3>
+				<p>Um pouco de batata, um pouco de salada</p>
+				<p class="valor-pedido">R$ 14,90</p>
+			</div>
+		</section>
+		<h4 class="titulo-pedido-bebidas">Agora,sua bebida</h4>
+			<section class="pedidos-bebidas" >
+			<div class="card-item bebida" onclick="selecionarPedido(this)" >
+				<img src="img/bebida.jpg" alt="bebida" />
+				<h3>Coca </h3>
+				<p>Lata 350ml</p>
+				<p class="valor-pedido">R$ 4,90</p>
+			</div>
+			<div class="card-item bebida "onclick="selecionarPedido(this)">
+				<img src="img/bebida.jpg" alt="bebida" />
+				<h3>Coca</h3>
+				<p>Lata 350m</p>
+				<p class="valor-pedido">R$ 4,90</p>
+			</div>
+			<div class="card-item bebida" onclick="selecionarPedido(this)" >
+				<img src="img/bebida.jpg" alt="bebida" />
+				<h3>Coca</h3>
+				<p>Lata 350m</p>
+				<p class="valor-pedido">R$ 4,90</p>
+			</div>
+			<div class="card-item bebida" onclick="selecionarPedido(this)">
+				<img src="img/bebida.jpg" alt="bebida" />
+				<h3>Coca</h3>
+				<p>Lata 350m</p>
+				<p class="valor-pedido">R$ 4,90</p>
+			</div>
+		</section>
+		<h4 class="titulo-pedido-sobremesa">Agora,sua sobremesa</h4>
+	
+	<section class="pedidos-sobremesa">
+			<div class="card-item sobremesa" onclick="selecionarPedido(this)" >
+				<img src="img/sobremesa.jpg" alt="sobremesa" />
+				<h3>Fatia pudim </h3>
+				<p>Apenas a Fatia</p>
+				<p class="valor-pedido">R$ 6,90</p>
+			</div>
+			<div class="card-item sobremesa" onclick="selecionarPedido(this)">
+				<img src="img/sobremesa.jpg" alt="sobremesa" />
+				<h3>Fatia pudim</h3>
+				<p>Apenas a Fatia</p>
+				<p class="valor-pedido">R$ 6,90</p>
+			</div>
+			<div class=" card-item sobremesa" onclick="selecionarPedido(this)">
+				<img src="img/sobremesa.jpg" alt="sobremesa" />
+				<h3>Fatia pudim</h3>
+				<p>Apenas a Fatia</p>
+				<p class="valor-pedido">R$ 6,90</p>
+			</div>
+			<div class="card-item sobremesa" onclick="selecionarPedido(this)" >
+				<img src="img/sobremesa.jpg" alt="sobremesa" />
+				<h3>Fatia pudim</h3>
+				<p>Apenas a Fatia</p>
+				<p class="valor-pedido">R$ 6,90</p>
+			</div>
+	</section>
+		<div class="container-botao">
+			<div class="botao-pedidos"><button onclick="validarPedido()">Selecione os 3 itens para fechar o pedido</button></div>
+		</div>
+		<div class="pedido-final escondido">
+  <div class="container">
+    <p>Frango Yin Yang       14,90 </p>
+    <p>Coquinha gelada       4,90  </p>
+    <p>Pudim                 7,90  </p>
+    <p>TOTAL             	R$ 27,70 </p>
+    <button>Tudo certo,pode pedir!</button>
+    <button>Cancelar</button>
+  </div>
+</div>
+	</body>
+	<script src="js/script.js"></script>
+</html>
