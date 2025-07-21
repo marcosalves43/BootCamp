@@ -1,0 +1,341 @@
+body{
+  height: 1250px;
+  font-family: "Encode Sans", serif;
+}
+
+.topo{
+  width: 200px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.primeiro-separador-horizontal{
+  height: 1px;
+  background-color: #f5f6f7;
+  margin-top: 6px;
+  margin-bottom: 6px; 
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-g1{
+  font-size: bold;
+  color: #d32f2f;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+
+}
+
+.logo-globo{
+  font-size: bold;
+  color:darkblue;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+
+.logo-valor{
+  font-size: bold;
+  color:darkgreen;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+
+.logo-ge{
+  font-size: bold;
+  color: lime;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-cartola{
+  font-size: bold;
+  color:orangered;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-globoplay{
+  font-size: bold;
+  color: crimson;
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-dropz{
+  font-size: bold;
+  color:rgb(250, 116, 228);
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-gshow{
+  font-size: bold;
+  color:rgb(250, 181, 7);
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-quem{
+  font-size: bold;
+  color:rgb(38, 58, 58);
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.logo-receitas{
+  font-size: bold;
+  color:rgb(174, 0, 209);
+  font-size: 16px; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+
+.topo img{
+  height: 60px;
+  width: 160px;
+} 
+
+
+.primeira-materia{
+  color:#c4160c;
+  margin-left: 70px;
+  margin-top: 27px;
+  font-size: 52px;
+  font-weight: bold;
+  width: 50%;
+  }
+  
+
+  .segunda-materia{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-size: 18px;
+    width: 50%;
+  }
+
+  .terceiro-separador-horizontal{
+    height: 1px;
+    width: 670px;
+    background-color: #F5F6F7;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 70px;
+  }
+
+
+  .galeria-de-noticias{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    width: 52%;
+    height: 20%;
+  }
+
+
+.primeira-noticia img {
+  height: 110px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+}
+
+.titulo-presidente{
+  color: #c4160c;
+  margin-left: 33px;
+  margin-top: 7px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.paragrafo-presidente{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 33px;
+}
+
+.obs-presidente{
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 33px;
+  margin-top: 8px;
+}
+
+
+.separador-segunda-materia{
+  height: 1px;
+  width: 680px;
+  background-color: #F5F6F7;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+} 
+
+
+.galeria-segunda-noticias{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  width: 60%;
+  height: 10%;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+
+.segunda-noticia{
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;  
+  margin-top: 20px;
+}
+
+
+.terceira-galeria{
+  width: 20%;
+  height: 70%;
+  margin-left: 760px;
+  margin-top: -680px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.terceira-notica img{
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+}
+
+
+.terceiro-titulo-presidente{
+  color: green;
+  margin-left: 33px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.terceiro-paragrafo-presidente{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 33px;
+  margin-top: 15px;
+}
+
+.terceiro-obs-presidente{
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 33px;
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.terceira-notica1 img {
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+  margin-top: -90px;
+
+}
+
+.terceira-notica2 img {
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+  margin-top: -121px;
+}
+
+
+.quarta-galeria{
+  width: 18%;
+  height: 70%;
+  margin-left: 1070px;
+  margin-top: -870px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quarta-notica img{
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+}
+
+.quarta-titulo-presidente{
+  color:orange;
+  margin-left: 33px;
+  margin-top: 7px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.quarta-paragrafo-presidente{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 33px;
+}
+
+.quarta-obs-presidente{
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 33px;
+  margin-top: 8px;
+}
+
+.quarta-notica1 img {
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+  margin-top: -90px;
+}
+
+.quarta-notica2 img {
+  height: 100px;
+  width: 193px;
+  border-radius: 5px;
+  margin-left: 30px;  
+  margin-top: -90px;
+}
+
+
+.separador-horizontal4{
+  height: 800px;
+  width: 1px;
+  background-color: #F5F6F7;
+  margin-top: 6px;
+  margin-bottom: 6px; 
+  margin-left: 750px;
+  margin-top: -900px;
+}
+
+.separador-horizontal5{
+  height: 800px;
+  width: 1px;
+  background-color: #F5F6F7;
+  margin-top: 6px;
+  margin-bottom: 6px; 
+  margin-left: 1050px;
+  margin-top: -810px;
+}

@@ -1,0 +1,458 @@
+.body{
+  width: 935px;
+  height: 1000px;
+}
+
+
+
+  .topo-site {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+.topo-site ion-icon{
+  font-size: 28px;
+  margin-top: 30px;
+} 
+
+.topo-site img{
+  height: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+
+
+.icone-instagram{
+  margin-top: -4px ;
+  margin-right: -30px;
+  margin-left: 140px;
+}
+
+.separador-icon{
+  background: #DBDBDB;
+  background: #FFFFFF;
+  width: 2px;
+  height: 20px;
+  margin-top: 20px;
+
+}
+
+
+.icone-paper{
+  margin-left: 300px;
+  margin-right: 5px;
+  margin-top: -4px ;
+}
+
+.icone-compass{
+  margin-right: 5px;
+  margin-top: -4px ;
+}
+
+.icone-heart{
+  margin-right: 20px;
+  margin-top: -4px ;
+}
+
+
+.barra-pesquisar{
+  height: 30px;
+  width: 180px;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+
+.icone-person{
+  height: 30px;
+  width: 180px;
+  margin-left: -2ch;
+  margin-top: -37px;
+}
+
+
+.separador-horizontal{
+  height: 1px;
+  width: 1400px;
+  background-color: #DBDBDB;
+  background: #FFFFFF;
+
+}
+
+.stories{
+  height: 90px;
+  width: 700px;
+  margin-top: 120px ;
+  margin-left: 200px;
+  padding: 10px;
+  border: 1px solid #DBDBDB;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.circulo {
+  width: 60px;         
+  height: 60px;        
+  border-radius: 50%;  
+  margin-top: 10px;
+  overflow: hidden;     
+  margin-left: 20px;
+  border: 3px solid palevioletred;
+}
+
+.circulo img {
+  width: 100%;         
+  height: 100%;         
+  object-fit: cover;    
+}
+
+.feed{
+  width: 722px;
+  height: 700px;
+  margin-left: 200px;
+  margin-top: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+}
+
+.post-titulo--usuario p {
+  width: 109;
+  height: 21;
+  margin-top: -25px;
+  margin-left: 65px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.post-titulo--usuario img{
+  width: 32px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.post-titulo ion-icon{
+  width: 16px;
+  height: 16px;
+  margin-top: -30px;
+  margin-left: 690px;
+}
+
+
+.post-da-img img{
+  width: 100%; 
+  height: 500px; 
+  object-fit: cover
+}
+
+
+.icones{
+  width: 724px;
+  height: 50px;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.icone-cor{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.icone-tex{
+  width: 30px;
+  height: 30px;
+  margin-left: -5px;
+}
+
+.icone-com{
+  width: 30px;
+  height: 30px;
+  margin-left: -5px;
+}
+
+.icone-fav{
+  width: 30px;
+  height: 30px;
+  margin-left: 580px;
+}
+
+
+.icones img{
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 62px;
+  margin-left: -694px;
+}
+
+
+.icones p{
+  font-size: 15px;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+
+.segundo-feed{
+  width: 722px;
+  height: 700px;
+  margin-left: 200px;
+  margin-top: 80px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+}
+
+.segundo-post-da-img img{
+  width: 100%; 
+  height: 500px; 
+  object-fit: cover
+}
+
+
+
+.opcoes{
+  height: 500px;
+  width: 400px;
+  margin-left: 960px;
+  margin-top: -1600px;
+  background: #FFFFFF;
+}
+
+.foto-perfil img {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+.opçoes p {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #262626;
+}
+
+.opçoes span {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #DBDBDB;
+}
+
+.sugestao {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8E8E8E;
+  margin-top: 20px;
+}
+
+.ver-tudo {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #262626;
+  margin-top: -11px;
+  margin-left: 300px;
+}
+
+.sugestao-usuario {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+
+
+.sugestao-usuario .foto-perfil img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+
+.detalhes-usuario {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nome-usuario {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #262626;
+}
+
+.nome-usuario:nth-child(2) {
+  font-size: 12px;
+  color: #0095f6;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.sugestao-usuario .detalhes-usuario .nome-usuario {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #262626;
+}
+
+.sugestao-usuario .detalhes-usuario .acoes {
+  display: flex;
+  flex-direction: column; /* Para organizar verticalmente */
+  gap: 5px; /* Espaço entre as opções */
+}
+
+.sugestao-usuario .detalhes-usuario .seguir {
+  font-size: 14px;
+  color: #0095f6;
+  cursor: pointer;
+  font-weight: bold; 
+}
+
+.sugestao-usuario .detalhes-usuario .segue {
+  font-size: 12px;
+  color: #8E8E8E;
+  cursor: not-allowed;
+  font-weight: 300;
+}
+
+.sugestao-usuario .detalhes-usuario .seguir:hover {
+  text-decoration: underline;
+}
+
+.sugestao-usuario .detalhes-usuario .segue {
+  font-weight: 300;
+  font-size: 12px;
+  color: #8E8E8E;
+}
+
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 300px; 
+}
+
+.main-content {
+  width: calc(100% - 300px); 
+}
+
+
+@media (max-width: 935px) {
+  .conteudo {
+    flex-direction: column; 
+  }
+
+  .sidebar {
+    display: none; 
+  }
+
+  .main-content {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 614px) {
+
+
+  .topo-site {
+    flex-direction: column; 
+    padding: 5px;
+  }
+
+  .barra-pesquisar {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  .icone-instagram,
+  .icone-paper,
+  .icone-compass,
+  .icone-heart,
+  .icone-person {
+    margin-left: 0; 
+    margin-top: 5px;
+  }
+
+
+  .post-da-img img,
+  .segundo-post-da-img img {
+    width: 100%; 
+    height: auto; 
+  }
+
+
+  .post-titulo--usuario p {
+    font-size: 12px;
+  }
+
+  .icones img {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .sugestao-usuario .detalhes-usuario {
+    display: block; 
+  }
+
+  .sugestao-usuario .detalhes-usuario .acoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+  }
+
+  .sugestao-usuario .detalhes-usuario .seguir {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .sugestao-usuario .detalhes-usuario .segue {
+    font-size: 10px;
+    color: #8E8E8E;
+  }
+
+
+  .stories {
+    flex-wrap: wrap; 
+    gap: 10px;
+  }
+
+  .circulo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .circulo img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
