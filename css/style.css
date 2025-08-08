@@ -69,7 +69,21 @@ body{
 }
 
 
-.card-item {
+.card-item  .icone-check{
+  margin-left: 110px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #32B72F;
+  display: none;
+}
+
+.card-item.ativo .icone-check {
+  display: block;
+}
+
+
+
+.card-item  {
   flex: 0 0 auto;
   background-color: #ffffff;
   width: 160px;
@@ -80,6 +94,7 @@ body{
   border-radius: 20px;
   padding: 10px;
   box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   cursor: pointer;
 }
 
@@ -152,7 +167,14 @@ body{
 
 .ativo{
   border:  5px solid green;
+}
 
+
+
+
+.botao-pedidos button.ativo {
+  background-color: #32B72F;  
+  color: #fff;  
 }
 
 
