@@ -1,38 +1,57 @@
-let numeroDeCartas;
+let numeroDeCartas = null;
 
 while (true) {
-  numeroDeCartas = Number(prompt("Com quantas cartas deseja jogar? (4 a 14, apenas pares)"));
+  numeroDeCartas = Number(prompt("Com quantas cartas você quer jogar? (Escolha um número par entre 4 e 14)"));
 
   if (
     !isNaN(numeroDeCartas) && 
-    numeroDeCartas >= 4 &&    
-    numeroDeCartas <= 14 &&   
-    numeroDeCartas % 2 === 0  
+    numeroDeCartas % 2 === 0 && 
+    numeroDeCartas >= 4 &&
+    numeroDeCartas <= 14 
   ) {
     break; 
-    }
-
-  alert("Valor inválido! Digite um número par entre 4 e 14.");
-}
-
-let cartas = [
-  "img/front.png",
-  "img/front.png",
-  "img/front.png",
-  "img/front.png",
-  "img/front.png"
-]
-
-
-function carregadorDeCartas(){
-  const card = document.querySelector(".game-container")  
-  card.innerHTML = ""  
-  for(let i = 0; i < cartas.length; i++){
-    card.innerHTML += `
-      <div class="card" data-identifier="card">
-      <img src="${cartas[i]}" alt="Carta ${i}" />
-      </div>
-    `
   }
+
+  alert("Número inválido! Tente novamente.");
 }
+
+
+const imgagensCartas = ["parrot1" , "parrot2", "parrot3", "parrot4", "parrot5", "parrot6", "parrot7"];
+
+const CartasSelecionadas = imgagensCartas.slice( 0 , numeroDeCartas / 2);
+const cartasDuplicadas = [...CartasSelecionadas, ...CartasSelecionadas];
+
+
+cartasDuplicadas.sort(comparador); 
+
+
+function comparador() { 
+	return Math.random() - 0.5; 
+}
+
+  const container = document.querySelector(".game-container");
+
+
+cartasDuplicadas.forEach( aparecerCartas =>{
+  const criaDiv = document.createElement("div");
+  criaDiv.classList.add("card");
+  criaDiv.innerHTML = `
+    <div class="front-face">
+      <img src="imagens/${aparecerCartas}.png" alt="Carta frente" />
+    </div>
+    <div class="back-face">
+      <img src="imagens/back.png" alt="Carta verso" />
+    </div>
+  `;
+  container.appendChild(criaDiv);
+}) ;
+
+
+
+
+
+
+
+
+
 
