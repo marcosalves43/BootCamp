@@ -35,6 +35,7 @@ function comparador() {
 cartasDuplicadas.forEach( aparecerCartas =>{
   const criaDiv = document.createElement("div");
   criaDiv.classList.add("card");
+  criaDiv.addEventListener("click", virarCarta);
   criaDiv.innerHTML = `
     <div class="front-face">
       <img src="imagens/${aparecerCartas}.png" alt="Carta frente" />
@@ -46,6 +47,16 @@ cartasDuplicadas.forEach( aparecerCartas =>{
   container.appendChild(criaDiv);
 }) ;
 
+
+primeiraCarta = null;
+segundaCarta = null;
+trava = false;
+
+
+function virarCarta(){
+  this.classList.toggle("flip");
+    
+  }
 
 
 
